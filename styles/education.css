@@ -1,0 +1,46 @@
+.education {
+  font-family: "Roboto Mono", monospace;
+  line-height: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.schooling,
+.higher-studies {
+  background-color: rgba(34, 34, 34, 0.3);
+  padding: 20px;
+  border: solid;
+  border-style: outset;
+  border-color: black;
+  border-width: 3px;
+  transition: all 1s;
+}
+.schooling:hover,
+.higher-studies:hover {
+  border-style: inset;
+  border-width: 3.5px;
+}
+.hs1 {
+  margin-top: 40px;
+  line-height: 5px;
+  margin-left: 40px;
+}
+.ug1 {
+  margin-top: 40px;
+  line-height: 10px;
+  margin-left: 40px;
+}
+.hs1 h4,
+.ug1 h4 {
+  animation: hs-ug-h4 infinite forwards 5s;
+}
+@keyframes hs-ug-h4 {
+  0% {
+    color: white;
+  }
+  50% {
+    color: gray;
+  }
+  100% {
+    color: white;
+  }
+}

@@ -1,0 +1,37 @@
+.skill-container {
+  font-family: "Roboto Mono", monospace;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 1s ease-in-out;
+}
+.skill-container:hover {
+  transform: translateY(-5%);
+  cursor: crosshair;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0px;
+  justify-content: space-evenly;
+}
+.s-row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  justify-content: space-around;
+}
+.skill-img {
+  width: 90px;
+}
+.skill-name {
+  text-align: center;
+  font-weight: bold;
+}
+.js-img {
+  width: 80px;
+}

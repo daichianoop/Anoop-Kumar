@@ -1,0 +1,29 @@
+.experience-container{
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.exp{
+    padding: 10px 20px;
+    transition: 1s ease;
+}
+.exp:hover{
+    transform:translateY(-5%);
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 13px 47px -5px,
+    rgba(252, 218, 50, 0.3) 0px 8px 16px -8px;
+}
+.exp h1 {
+    animation: exppost infinite forwards 0.7s ;
+}
+@keyframes exppost {
+    0% {
+        color: white;
+      }
+      50% {
+        color: gray;
+      }
+      100% {
+        color: white;
+      }
+}
