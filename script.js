@@ -221,6 +221,12 @@ let skills_changed = `
   </div>
 </div>
 <div class="s-row">
+<div class="skill-container">
+<div class="skill-img">
+  <img class="js-img" src="icons/packetTracer.png" alt="" />
+</div>
+<div class="skill-name">PACKET TRACER</div>
+</div>
   <div class="skill-container">
     <div class="skill-img">
       <img class="js-img" src="icons/webd.png" alt="" />
@@ -328,150 +334,182 @@ let sample_changed = `        <div class="sample-navbar">
 
 <div class="sample" id="js-sample">
 <div class="sample-row">
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Task-Manager/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/task-manager-video-c.mp4"
-      autoplay
-      loop
-    ></video>
-  </a>
-  <div class="card-info">
-    <p class="text-title">Task Manager</p>
-    <p class="text-body">
-      Efficient task manager with changeable backgrounds and and
-      localstorage.
-    </p>
+  <div class="card">
+    <a href="https://rig-generator.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/Rig-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
+    <div class="card-info">
+      <p class="text-title">Random Image Generator</p>
+      <p class="text-body">
+        A generative website that displays Random Images using
+        JavaScript.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Theme-Watch/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/theme-clock-video-c.mp4"
-      autoplay
-      loop
-    ></video>
-  </a>
+  <div class="card">
+    <a href="https://welcome-to-spotify.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/spotify-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
 
-  <div class="card-info">
-    <p class="text-title">Theme Clock</p>
-    <p class="text-body">
-      Analog + Virtual clock with light and dark themes.
-    </p>
+    <div class="card-info">
+      <p class="text-title">Spotify Clone</p>
+      <p class="text-body">
+        FUnctional Clone of Spotify filled with all the playback
+        features.
+      </p>
+    </div>
   </div>
-</div>
 </div>
 <div class="sample-row">
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Flickr-clone/"
-    target="_blank"
-    ><video
-      class="card-img"
-      src="vid-c/flickrr-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
-
-  <div class="card-info">
-    <p class="text-title">Flickr Clone</p>
-    <p class="text-body">
-      Flickr clone with automatically changing backgrounds.
-    </p>
+  <div class="card">
+    <a
+      href="https://task-manager-inky-eight.vercel.app/"
+      target="_blank"
+    >
+      <video
+        class="card-img"
+        src="vid-c/task-manager-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
+    <div class="card-info">
+      <p class="text-title">Task Manager</p>
+      <p class="text-body">
+        Efficient task manager with changeable backgrounds and and
+        localstorage.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Linkedin-clone/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/linkedin-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
+  <div class="card">
+    <a href="https://theme-watch.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/theme-clock-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
 
-  <div class="card-info">
-    <p class="text-title">LinkedIn Clone</p>
-    <p class="text-body">A top to bottom linkedin clone.</p>
+    <div class="card-info">
+      <p class="text-title">Theme Clock</p>
+      <p class="text-body">
+        Analog + Virtual clock with light and dark themes.
+      </p>
+    </div>
   </div>
-</div>
 </div>
 <div class="sample-row">
-<div class="card">
-  <a href="https://daichianoop.github.io/ytclone/" target="_blank">
-    <video
-      class="card-img"
-      src="vid-c/yt-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
+  <div class="card">
+    <a href="https://flickr-cloned.vercel.app/" target="_blank"
+      ><video
+        class="card-img"
+        src="vid-c/flickrr-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
 
-  <div class="card-info">
-    <p class="text-title">Youtube Clone</p>
-    <p class="text-body">
-      Hyperlinked youtube clone with working thumbnails.
-    </p>
+    <div class="card-info">
+      <p class="text-title">Flickr Clone</p>
+      <p class="text-body">
+        Flickr clone with automatically changing backgrounds.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/RockPaperScissors/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/rps-video-c.mp4"
-      autoplay
-      loop
-    ></video>
-  </a>
+  <div class="card">
+    <a
+      href="https://linkedin-clone-murex.vercel.app/"
+      target="_blank"
+    >
+      <video
+        class="card-img"
+        src="vid-c/linkedin-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
 
-  <div class="card-info">
-    <p class="text-title">Rock Paper Scissors Game</p>
-    <p class="text-body">
-      Play rock-paper-scissors with the computer.
-    </p>
+    <div class="card-info">
+      <p class="text-title">LinkedIn Clone</p>
+      <p class="text-body">A top to bottom linkedin clone.</p>
+    </div>
   </div>
-</div>
 </div>
 <div class="sample-row">
-<div class="card">
-  <a href="https://daichianoop.github.io/CoinFlip/" target="_blank">
-    <video
-      class="card-img"
-      src="vid-c/coin-flip-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
+  <div class="card">
+    <a href="https://ytclone-livid.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/yt-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
 
-  <div class="card-info">
-    <p class="text-title">Probability Coin Flip</p>
-    <p class="text-body">
-      Play a game of probability with the computer.
-    </p>
+    <div class="card-info">
+      <p class="text-title">Youtube Clone</p>
+      <p class="text-body">
+        Hyperlinked youtube clone with working thumbnails.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <a
+      href="https://rock-paper-scissors-one-dun.vercel.app/"
+      target="_blank"
+    >
+      <video
+        class="card-img"
+        src="vid-c/rps-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
+
+    <div class="card-info">
+      <p class="text-title">Rock Paper Scissors Game</p>
+      <p class="text-body">
+        Play rock-paper-scissors with the computer.
+      </p>
+    </div>
   </div>
 </div>
-<div class="card">
-  <video class="card-img" src="" autoplay loop></video>
-  <div class="card-info">
-    <p class="text-title">Coming soon...</p>
-    <p class="text-body"></p>
+<div class="sample-row">
+  <div class="card">
+    <a href="https://daichianoop.github.io/CoinFlip/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/coin-flip-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
+
+    <div class="card-info">
+      <p class="text-title">Probability Coin Flip</p>
+      <p class="text-body">
+        Play a game of probability with the computer.
+      </p>
+    </div>
   </div>
-</div>
+  <div class="card">
+    <video class="card-img" src="" autoplay loop></video>
+    <div class="card-info">
+      <p class="text-title">Coming soon...</p>
+      <p class="text-body"></p>
+    </div>
+  </div>
 </div>
 </div>`;
 function sample() {
@@ -572,149 +610,217 @@ function other_sample() {
 }
 
 let project_sample_var = `
+<div class="sample-navbar">
+<div class="radio-buttons-container">
+  <div class="radio-button">
+    <input
+      checked
+      name="radio-group"
+      id="radio2"
+      class="radio-button__input"
+      type="radio"
+      onclick="project_sample()"
+    />
+    <label for="radio2" class="radio-button__label">
+      <span class="radio-button__custom"></span>
+
+      Project Samples
+    </label>
+  </div>
+  <div class="radio-button">
+    <input
+      name="radio-group"
+      id="radio1"
+      class="radio-button__input"
+      type="radio"
+      onclick="other_sample()"
+    />
+    <label for="radio1" class="radio-button__label">
+      <span class="radio-button__custom"></span>
+
+      Others
+    </label>
+  </div>
+</div>
+</div>
+
+<div class="sample" id="js-sample">
 <div class="sample-row">
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Task-Manager/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/task-manager-video-c.mp4"
-      autoplay
-      loop
-    ></video>
-  </a>
-  <div class="card-info">
-    <p class="text-title">Task Manager</p>
-    <p class="text-body">
-      Efficient task manager with changeable backgrounds and and
-      localstorage.
-    </p>
+  <div class="card">
+    <a href="https://rig-generator.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/Rig-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
+    <div class="card-info">
+      <p class="text-title">Random Image Generator</p>
+      <p class="text-body">
+        A generative website that displays Random Images using
+        JavaScript.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Theme-Watch/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/theme-clock-video-c.mp4"
-      autoplay
-      loop
-    ></video>
-  </a>
+  <div class="card">
+    <a href="https://welcome-to-spotify.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/spotify-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
 
-  <div class="card-info">
-    <p class="text-title">Theme Clock</p>
-    <p class="text-body">
-      Analog + Virtual clock with light and dark themes.
-    </p>
+    <div class="card-info">
+      <p class="text-title">Spotify Clone</p>
+      <p class="text-body">
+        FUnctional Clone of Spotify filled with all the playback
+        features.
+      </p>
+    </div>
   </div>
-</div>
-</div>
-<div class="sample-row">
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Flickr-clone/"
-    target="_blank"
-    ><video
-      class="card-img"
-      src="vid-c/flickrr-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
-
-  <div class="card-info">
-    <p class="text-title">Flickr Clone</p>
-    <p class="text-body">
-      Flickr clone with automatically changing backgrounds.
-    </p>
-  </div>
-</div>
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/Linkedin-clone/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/linkedin-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
-
-  <div class="card-info">
-    <p class="text-title">LinkedIn Clone</p>
-    <p class="text-body">A top to bottom linkedin clone.</p>
-  </div>
-</div>
 </div>
 <div class="sample-row">
-<div class="card">
-  <a href="https://daichianoop.github.io/ytclone/" target="_blank">
-    <video
-      class="card-img"
-      src="vid-c/yt-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
-
-  <div class="card-info">
-    <p class="text-title">Youtube Clone</p>
-    <p class="text-body">
-      Hyperlinked youtube clone with working thumbnails.
-    </p>
+  <div class="card">
+    <a
+      href="https://task-manager-inky-eight.vercel.app/"
+      target="_blank"
+    >
+      <video
+        class="card-img"
+        src="vid-c/task-manager-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
+    <div class="card-info">
+      <p class="text-title">Task Manager</p>
+      <p class="text-body">
+        Efficient task manager with changeable backgrounds and and
+        localstorage.
+      </p>
+    </div>
   </div>
-</div>
-<div class="card">
-  <a
-    href="https://daichianoop.github.io/RockPaperScissors/"
-    target="_blank"
-  >
-    <video
-      class="card-img"
-      src="vid-c/rps-video-c.mp4"
-      autoplay
-      loop
-    ></video>
-  </a>
+  <div class="card">
+    <a href="https://theme-watch.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/theme-clock-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
 
-  <div class="card-info">
-    <p class="text-title">Rock Paper Scissors Game</p>
-    <p class="text-body">
-      Play rock-paper-scissors with the computer.
-    </p>
+    <div class="card-info">
+      <p class="text-title">Theme Clock</p>
+      <p class="text-body">
+        Analog + Virtual clock with light and dark themes.
+      </p>
+    </div>
   </div>
-</div>
 </div>
 <div class="sample-row">
-<div class="card">
-  <a href="https://daichianoop.github.io/CoinFlip/" target="_blank">
-    <video
-      class="card-img"
-      src="vid-c/coin-flip-video-c.mp4"
-      autoplay
-      loop
-    ></video
-  ></a>
+  <div class="card">
+    <a href="https://flickr-cloned.vercel.app/" target="_blank"
+      ><video
+        class="card-img"
+        src="vid-c/flickrr-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
 
-  <div class="card-info">
-    <p class="text-title">Probability Coin Flip</p>
-    <p class="text-body">
-      Play a game of probability with the computer.
-    </p>
+    <div class="card-info">
+      <p class="text-title">Flickr Clone</p>
+      <p class="text-body">
+        Flickr clone with automatically changing backgrounds.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <a
+      href="https://linkedin-clone-murex.vercel.app/"
+      target="_blank"
+    >
+      <video
+        class="card-img"
+        src="vid-c/linkedin-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
+
+    <div class="card-info">
+      <p class="text-title">LinkedIn Clone</p>
+      <p class="text-body">A top to bottom linkedin clone.</p>
+    </div>
   </div>
 </div>
-<div class="card">
-  <video class="card-img" src="" autoplay loop></video>
-  <div class="card-info">
-    <p class="text-title">Coming soon...</p>
-    <p class="text-body"></p>
+<div class="sample-row">
+  <div class="card">
+    <a href="https://ytclone-livid.vercel.app/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/yt-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
+
+    <div class="card-info">
+      <p class="text-title">Youtube Clone</p>
+      <p class="text-body">
+        Hyperlinked youtube clone with working thumbnails.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <a
+      href="https://rock-paper-scissors-one-dun.vercel.app/"
+      target="_blank"
+    >
+      <video
+        class="card-img"
+        src="vid-c/rps-video-c.mp4"
+        autoplay
+        loop
+      ></video>
+    </a>
+
+    <div class="card-info">
+      <p class="text-title">Rock Paper Scissors Game</p>
+      <p class="text-body">
+        Play rock-paper-scissors with the computer.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="sample-row">
+  <div class="card">
+    <a href="https://daichianoop.github.io/CoinFlip/" target="_blank">
+      <video
+        class="card-img"
+        src="vid-c/coin-flip-video-c.mp4"
+        autoplay
+        loop
+      ></video
+    ></a>
+
+    <div class="card-info">
+      <p class="text-title">Probability Coin Flip</p>
+      <p class="text-body">
+        Play a game of probability with the computer.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <video class="card-img" src="" autoplay loop></video>
+    <div class="card-info">
+      <p class="text-title">Coming soon...</p>
+      <p class="text-body"></p>
+    </div>
   </div>
 </div>
 </div>`;
